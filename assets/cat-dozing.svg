@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 990 680" width="990" height="680" role="img" aria-label="PomoPlan cat — Dozing (no session yet today)">
+<title>PomoPlan cat — Dozing (no session yet today)</title>
+<!--
+  Delta vs cat-content.svg: ears droop to half-mast (-16/+16 deg about the
+  same base pivots the code already rotates for earTwitch/angry), eyes
+  closed as soft upward-bowed arcs (content, not squeezed), front paws
+  REMOVED (tucked under the loaf), tail swapped for a wrapped silhouette
+  draped across the front (drawn last, over the body), three drifting z
+  path glyphs up-right of the head. Torso/head/face otherwise identical.
+  Never sad: this is a happy nap, not neglect.
+  Idle motion: slow breathing (~2% scale, 3s), z's drift up-right & fade.
+-->
+<g id="cat-dozing">
+  <ellipse cx="513" cy="585.2" rx="262.2" ry="30.4" fill="var(--cat-ink,#211f26)" opacity="0.10"/>
+  <path d="M256.5 408.5 C313.5 285 465.5 237.5 619.4 266 C750.5 290.7 817 376.2 805.6 473.1 C796.1 554.8 710.6 581.4 600.4 562.4 L281.2 562.4 C169.1 558.6 155.8 467.4 256.5 408.5 Z" fill="var(--cat-bg,#FAF6EF)" stroke="var(--cat-ink,#211f26)" stroke-width="10.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M304 412.3 C361 319.2 488.3 285 606.1 307.8 C703 326.8 754.3 383.8 748.6 452.2 C742.9 513 682.1 530.1 598.5 516.8 L313.5 516.8 C233.7 513 220.4 459.8 304 412.3 Z" fill="var(--cat-accent,#8B5CF6)" opacity="0.07"/>
+  <path d="M182.4 275.5 C182.4 146.3 275.5 72.2 400.9 72.2 C524.4 72.2 613.7 150.1 613.7 275.5 C613.7 393.3 528.2 463.6 400.9 463.6 C273.6 463.6 182.4 393.3 182.4 275.5 Z" fill="var(--cat-bg,#FAF6EF)" stroke="var(--cat-ink,#211f26)" stroke-width="10.5" stroke-linejoin="round" stroke-linecap="round"/>
+  <ellipse cx="269.8" cy="307.8" rx="24.7" ry="24.7" fill="var(--cat-accent,#8B5CF6)" opacity="0.10"/>
+  <ellipse cx="533.9" cy="307.8" rx="24.7" ry="24.7" fill="var(--cat-accent,#8B5CF6)" opacity="0.10"/>
+  <path d="M260.3 129.2 L193.7 41.6 L322.1 75.9 Z" fill="var(--cat-accent,#8B5CF6)" fill-opacity="0.16" stroke="var(--cat-ink,#211f26)" stroke-width="10.5" stroke-linejoin="round"/>
+  <path d="M535.8 129.2 L614.7 47.1 L486.8 79.6 Z" fill="var(--cat-accent,#8B5CF6)" fill-opacity="0.16" stroke="var(--cat-ink,#211f26)" stroke-width="10.5" stroke-linejoin="round"/>
+  <path d="M 273.2 251.1 Q 319.2 233.1 365.2 251.1" fill="none" stroke="var(--cat-ink,#211f26)" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M 423.3 251.1 Q 469.3 233.1 515.3 251.1" fill="none" stroke="var(--cat-ink,#211f26)" stroke-width="8.5" stroke-linecap="round"/>
+  <path d="M393.3 321.1 C402.8 311.6 418 311.6 427.5 321.1 C421.8 330.6 414.2 336.3 410.4 336.3 C404.7 336.3 399 330.6 393.3 321.1 Z" fill="var(--cat-ink,#211f26)"/>
+  <path d="M410.4 336.3 L410.4 353.4 M410.4 353.4 C393.3 372.4 370.5 368.6 359.1 349.6 M410.4 353.4 C427.5 372.4 450.3 368.6 461.7 349.6" fill="none" stroke="var(--cat-ink,#211f26)" stroke-width="8.5" stroke-linecap="round"/>
+  <g stroke="var(--cat-ink,#211f26)" stroke-width="8" stroke-linecap="round" opacity="0.55">
+      <path d="M235.6 304.0 L110.2 281.2"/>
+      <path d="M235.6 336.3 L106.4 336.3"/>
+      <path d="M562.4 304.0 L689.7 281.2"/>
+      <path d="M562.4 336.3 L693.5 336.3"/>
+    </g>
+  <path d="M 726.7 442.8 L 716.3 457.5 L 703.7 471.1 L 689.0 483.7 L 672.4 495.1 L 653.8 505.3 L 633.5 514.3 L 611.7 521.8 L 588.6 528.0 L 564.4 532.7 L 539.3 535.9 L 513.6 537.7 L 487.4 538.1 L 461.1 537.0 L 434.7 534.4 L 431.2 533.1 L 423.1 530.3 L 416.0 527.2 L 409.8 524.0 L 404.7 520.9 L 400.6 517.9 L 397.7 515.3 L 395.7 513.2 L 394.4 511.5 L 393.5 510.1 L 393.0 508.4 L 393.1 505.8 L 394.4 502.1 L 397.3 497.4 L 366.7 468.6 L 358.5 477.6 L 352.1 487.6 L 347.7 498.7 L 345.8 510.4 L 346.4 522.3 L 349.4 533.6 L 354.3 544.0 L 360.7 553.4 L 368.3 562.0 L 377.0 569.8 L 386.5 576.9 L 396.9 583.3 L 408.1 589.1 L 425.3 595.6 L 454.9 600.1 L 484.7 602.9 L 514.5 604.0 L 544.2 603.4 L 573.6 601.0 L 602.5 596.8 L 630.8 590.7 L 658.2 582.6 L 684.6 572.5 L 709.8 560.2 L 733.6 545.7 L 755.6 528.7 L 775.7 509.2 L 793.3 487.2 Z" fill="var(--cat-bg,#FAF6EF)" stroke="var(--cat-ink,#211f26)" stroke-width="10.5" stroke-linejoin="round"/>
+  <g fill="none" stroke="var(--cat-ink,#211f26)" stroke-linecap="round" stroke-linejoin="round">
+    <path transform="translate(585,155)" d="M 0 0 L 24 0 L 0 28 L 24 28" stroke-width="7" opacity="0.8"/>
+    <path transform="translate(622,108)" d="M 0 0 L 18 0 L 0 21 L 18 21" stroke-width="6" opacity="0.6"/>
+    <path transform="translate(655,65)" d="M 0 0 L 14 0 L 0 16 L 14 16" stroke-width="5" opacity="0.5"/>
+  </g>
+</g>
+</svg>

@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f4ec">
+  <meta name="color-scheme" content="light">
+  <title>Support — PomoPlan</title>
+  <meta name="description" content="Get help with PomoPlan on iPhone and Apple Watch, including timer sync, notifications, iCloud, widgets, and Focus Guard.">
+  <link rel="canonical" href="https://pomoplan.io/support/">
+  <link rel="icon" type="image/png" href="/assets/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/app-icon.png">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script src="/assets/site.js" defer></script>
+</head>
+<body class="inner-page">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <header class="site-header is-scrolled" data-site-header>
+    <div class="shell header-inner">
+      <a class="brand" href="/" aria-label="PomoPlan home">
+        <img class="brand-icon" src="/assets/app-icon.png" alt="" width="40" height="40">
+        <span>PomoPlan</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" data-nav-toggle>
+        <span class="sr-only">Open navigation</span><span></span><span></span>
+      </button>
+      <nav class="site-nav" id="site-navigation" aria-label="Primary navigation" data-site-nav>
+        <a href="/#features">Features</a>
+        <a href="/#ecosystem">Apple Watch</a>
+        <a href="/#companion">Companion</a>
+        <a href="/support/" aria-current="page">Support</a>
+        <a class="nav-cta" href="/#coming-soon">App Store <span>soon</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="inner-main" id="main-content">
+    <section class="inner-hero" data-page-code="HELP">
+      <div class="shell inner-hero-content" data-reveal>
+        <p class="eyebrow"><span class="signal-dot"></span> PomoPlan support</p>
+        <h1>Let’s get you back<br><em>into the rhythm.</em></h1>
+        <p>Quick answers for iPhone, Apple Watch, widgets, notifications, iCloud sync, and Focus Guard.</p>
+        <div class="inner-hero-meta"><span>iPhone</span><span>Apple Watch</span><span>iCloud</span><span>Widgets</span></div>
+      </div>
+    </section>
+
+    <section class="page-section">
+      <div class="shell support-layout">
+        <aside class="support-sidebar" aria-label="Contact support">
+          <div class="support-card" data-reveal>
+            <span class="support-card-icon" aria-hidden="true">↗</span>
+            <h2>Still stuck?</h2>
+            <p>Email the creator directly. You’ll reach a person, not a ticket maze.</p>
+            <a class="button" href="mailto:support@pomoplan.io?subject=PomoPlan%20support">support@pomoplan.io</a>
+          </div>
+          <div class="support-note" data-reveal>
+            When reporting a problem, include your iPhone and Watch models, OS versions, PomoPlan version, what you expected, and what happened. Screenshots help. Please do not send sensitive personal information.
+          </div>
+        </aside>
+
+        <div class="support-content">
+          <h2 data-reveal>Frequently asked questions</h2>
+          <p data-reveal>Tap a question to see the recommended checks.</p>
+
+          <div class="support-faq">
+            <details data-reveal>
+              <summary>My iPhone and Apple Watch timers are not in sync.<span>+</span></summary>
+              <div class="support-answer">
+                <p>PomoPlan sends timer changes through Apple’s WatchConnectivity system. Start with these checks:</p>
+                <ol>
+                  <li>Confirm the PomoPlan Watch app is installed from the Watch app on iPhone.</li>
+                  <li>Keep Bluetooth and Wi-Fi enabled on both devices.</li>
+                  <li>Open PomoPlan once on both devices, then leave them near each other for a moment.</li>
+                  <li>Make sure both devices are running the latest PomoPlan build available to you.</li>
+                </ol>
+                <p>If one device still shows an older session, email support with the exact sequence of taps and which device started the session.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>A session ended, but I did not hear the alert during Do Not Disturb.<span>+</span></summary>
+              <div class="support-answer">
+                <p>First allow notifications and Time Sensitive alerts for PomoPlan. Apple also requires a manual Focus allow-list step for reliable sound during Do Not Disturb:</p>
+                <ol>
+                  <li>Open <strong>Settings → Focus → Do Not Disturb → Apps</strong>.</li>
+                  <li>Under <strong>Allow Notifications From</strong>, add PomoPlan.</li>
+                  <li>Check that your device is not muted and that notification sounds are enabled.</li>
+                </ol>
+                <p>Apple decides whether an iPhone notification is presented on iPhone or forwarded to Apple Watch based on device state and notification settings.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>The Watch widget or complication looks stale.<span>+</span></summary>
+              <div class="support-answer">
+                <p>WidgetKit controls the final refresh schedule, so a complication can occasionally trail the app’s internal timer. Open the PomoPlan Watch app once, return to the watch face, and confirm the Watch app itself has the current session.</p>
+                <p>If the app is correct but the widget remains stale, remove and add the complication again. Include the watch face name in a support email because different faces can schedule updates differently.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>How do I enable or change Focus Guard app blocking?<span>+</span></summary>
+              <div class="support-answer">
+                <p>Open PomoPlan’s Settings, enable the distraction guard, and choose <strong>Apps to block</strong>. iOS will ask for Screen Time authorization before PomoPlan can shield your selections during focus.</p>
+                <p>You remain in control: change the selection or turn the guard off from Settings. PomoPlan uses Apple’s Screen Time frameworks for this feature.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>How does iCloud sync work?<span>+</span></summary>
+              <div class="support-answer">
+                <p>When iCloud is available, PomoPlan keeps supported timer history, topics, tasks, and settings current through your private iCloud database. Use the same Apple Account on your devices and make sure iCloud Drive is enabled.</p>
+                <p>PomoPlan continues to work locally if iCloud is unavailable; changes will sync again when Apple’s service and your connection are available.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>Can I use PomoPlan without iCloud or an Apple Watch?<span>+</span></summary>
+              <div class="support-answer">
+                <p>Yes. The complete timer, task queue, history, focus score, companion, and optional Focus Guard experience works on iPhone. Apple Watch and iCloud add convenience but are not required for the core timer.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>What is a casual session?<span>+</span></summary>
+              <div class="support-answer">
+                <p>A casual session is not scored. Use it when you want the structure of a timer without focus-score pressure. The chosen topic and task can still help you understand where your time went.</p>
+              </div>
+            </details>
+
+            <details data-reveal>
+              <summary>How do I remove my PomoPlan data?<span>+</span></summary>
+              <div class="support-answer">
+                <p>Use the data controls in PomoPlan Settings to clear your sessions and related app data. PomoPlan may keep a temporary local recovery backup for up to 30 days so an accidental clear can be restored; use the permanent-delete option when available if you do not want that recovery window.</p>
+                <p>For questions about a deletion request, email <a href="mailto:support@pomoplan.io">support@pomoplan.io</a>.</p>
+              </div>
+            </details>
+          </div>
+
+          <div class="contact-band" data-reveal>
+            <div><h2>Something else?</h2><p>Describe what happened and we’ll work through it.</p></div>
+            <a class="button" href="mailto:support@pomoplan.io?subject=PomoPlan%20support">Email support</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-grid">
+      <div><a class="brand footer-brand" href="/"><img class="brand-icon" src="/assets/app-icon.png" alt="" width="40" height="40"><span>PomoPlan</span></a><p>A calmer way to plan, focus, rest, and return.</p></div>
+      <div class="footer-links"><div><strong>Product</strong><a href="/#features">Features</a><a href="/#ecosystem">Apple Watch</a></div><div><strong>Help</strong><a href="/support/">Support</a><a href="mailto:support@pomoplan.io">Email</a></div><div><strong>Legal</strong><a href="/privacy/">Privacy</a><a href="/terms/">Terms</a></div></div>
+    </div>
+    <div class="shell footer-bottom"><span>© <span data-year>2026</span> PomoPlan</span><span>Designed for focus, not feeds.</span></div>
+  </footer>
+</body>
+</html>
