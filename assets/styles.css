@@ -134,8 +134,20 @@ a {
   transition: background-color 220ms ease, border-color 220ms ease, backdrop-filter 220ms ease;
 }
 
+.site-header::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  transition: background-color 220ms ease, backdrop-filter 220ms ease;
+}
+
 .site-header.is-scrolled {
   border-color: var(--line);
+}
+
+/* Blur sits on ::before because backdrop-filter on the header would make it the containing block for the fixed mobile nav. */
+.site-header.is-scrolled::before {
   background: rgba(250, 247, 240, 0.84);
   -webkit-backdrop-filter: blur(20px) saturate(130%);
   backdrop-filter: blur(20px) saturate(130%);
@@ -2790,7 +2802,7 @@ h2 em {
   }
 
   .hero-product {
-    min-height: 595px;
+    min-height: 720px;
     margin-inline: -14px;
     transform: none;
   }
@@ -2848,22 +2860,22 @@ h2 em {
   }
 
   .watch-preview {
-    right: -17px;
-    bottom: 10px;
+    right: 14px;
+    bottom: 0;
     transform: scale(0.68);
     transform-origin: bottom right;
   }
 
   .focus-score-float {
-    bottom: 31px;
-    left: -2px;
+    bottom: 56px;
+    left: 14px;
     transform: scale(0.83);
     transform-origin: bottom left;
   }
 
   .tech-label-top {
-    top: 13px;
-    right: 0;
+    top: -26px;
+    right: 14px;
   }
 
   .tech-label-bottom {
@@ -2940,7 +2952,7 @@ h2 em {
   }
 
   .ecosystem-stage {
-    min-height: 480px;
+    min-height: 560px;
     margin-inline: -8px;
   }
 
@@ -2967,11 +2979,13 @@ h2 em {
   }
 
   .connection-line {
+    top: 43%;
     right: 22px;
     left: 22px;
   }
 
   .sync-pulse {
+    top: 40%;
     left: 51%;
     transform: translate(-50%, -50%) scale(0.8);
   }
