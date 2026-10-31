@@ -21,7 +21,7 @@ Stop the server with `Control-C`.
 
 ## App Store link
 
-The App Store listing is not available yet, so download calls to action currently link to `#coming-soon`. Once the URL exists, replace those links in `index.html` and the shared navigation in each page.
+PomoPlan is live at <https://apps.apple.com/app/pomoplan/id6794292666>. Download calls to action in `index.html` and the shared navigation in each page link there, and `index.html` sets the Safari Smart App Banner (`apple-itunes-app`).
 
 ## Deployment
 
