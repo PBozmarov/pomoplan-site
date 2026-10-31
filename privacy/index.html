@@ -32,7 +32,7 @@
         <p class="eyebrow"><span class="signal-dot"></span> Privacy policy</p>
         <h1>Your focus data<br><em>belongs to you.</em></h1>
         <p>This policy explains what PomoPlan stores, why it is needed, and which Apple and hosting services may process it.</p>
-        <div class="inner-hero-meta"><span>Effective September 22, 2026</span><span>No ads</span><span>No third-party analytics</span></div>
+        <div class="inner-hero-meta"><span>Effective October 31, 2026</span><span>No ads</span><span>No third-party analytics</span></div>
       </div>
     </section>
 
@@ -54,7 +54,7 @@
         <article class="legal-content">
           <div class="legal-summary" data-reveal>
             <strong>The short version</strong>
-            <p>PomoPlan has no advertising SDKs, does not use third-party analytics, and does not require a PomoPlan account. Focus data is stored on your devices and, if iCloud sync is enabled, through Apple in your private iCloud database.</p>
+            <p>PomoPlan has no advertising SDKs, does not use third-party analytics, and does not require a PomoPlan account. Session history and scores stay on your devices and, if enabled, in your private iCloud database. To update a Live Activity while the app is closed, a limited current/next timer schedule is sent to PomoPlan’s push service.</p>
           </div>
 
           <section id="overview" data-reveal>
@@ -88,6 +88,8 @@
             <p>PomoPlan uses Apple’s WatchConnectivity framework to send relevant timer state, tasks, settings, and session updates between your paired devices. This communication is provided and secured by Apple’s operating systems.</p>
             <h3>iCloud sync</h3>
             <p>If iCloud sync is enabled and available, supported PomoPlan data is synchronized using Apple’s iCloud and CloudKit services. PomoPlan uses the user’s private CloudKit database. Apple states that, by default, only the user can access this database, the user owns its contents, and its data is not visible in the developer portal. iCloud storage and processing are governed by your Apple Account settings and Apple’s terms.</p>
+            <h3>Live Activity delivery</h3>
+            <p>For a running iPhone Live Activity, the app sends a limited schedule over HTTPS to PomoPlan’s push service, hosted by Contabo in Europe. It includes an installation identifier, an Apple Live Activity update token, the current and next topic/task text shown on the activity, and phase timing and status. A separate Apple App Attest registration secures later requests. The service stores the schedule and sends phase updates through Apple Push Notification service. It does not receive Screen Time selections or usage, focus scores, or completed session history. Without this service or internet access, the app’s local timer continues, but background Live Activity phase changes may be delayed.</p>
             <p>Learn more in <a href="https://www.apple.com/legal/privacy/" rel="external">Apple’s Privacy Policy</a> and Apple’s documentation for the <a href="https://developer.apple.com/documentation/cloudkit/ckcontainer/privateclouddatabase" rel="external">private CloudKit database</a>.</p>
           </section>
 
@@ -99,7 +101,7 @@
               <li><strong>Family Controls / Screen Time:</strong> used only if you enable Focus Guard and choose apps or categories to shield during a focus session. PomoPlan does not send those selections to its own server.</li>
               <li><strong>iCloud:</strong> used to synchronize supported app data through your Apple Account when enabled.</li>
               <li><strong>WatchConnectivity:</strong> used to synchronize supported state with your paired Apple Watch.</li>
-              <li><strong>Live Activities and widgets:</strong> used to display current timer information outside the main app.</li>
+              <li><strong>Live Activities and widgets:</strong> used to display current timer information outside the main app. Live Activity phase updates may use PomoPlan’s push service and Apple Push Notification service.</li>
             </ul>
             <p>Apple may process device, permission, notification, iCloud, App Store, and diagnostic information under Apple’s own policies. PomoPlan does not control Apple’s independent processing.</p>
           </section>
@@ -117,11 +119,11 @@
             <h2>6. Retention and deletion</h2>
             <ul>
               <li><strong>App data:</strong> remains on your devices and, when enabled, in iCloud until you edit or delete it, clear app data, or Apple removes it under your account or service settings.</li>
-              <li><strong>Cleared-data recovery:</strong> when you use PomoPlan’s clear-data control, the app first creates an on-device recovery backup. That backup is automatically eligible for removal after 30 days and is not uploaded to a PomoPlan server.</li>
+              <li><strong>Live Activity service:</strong> schedules and update tokens are removed after their timer window, normally within 24 hours after the scheduled break. Installation security records can remain longer so the service can authenticate later updates; contact us about a removal request. Operational logs may contain request times, network addresses, and delivery error codes.</li>
               <li><strong>Support email:</strong> may be retained as long as reasonably needed to respond, document a recurring issue, meet legal obligations, or resolve disputes, then deleted when no longer needed.</li>
               <li><strong>Hosting logs:</strong> are retained by GitHub and Fastly according to their service configurations and privacy policies.</li>
             </ul>
-            <p>You can delete sessions and queued tasks in the app and use the data controls in Settings. Because iCloud is an Apple service, deletion or synchronization may require a connection and can take time to propagate across devices.</p>
+            <p>You can delete sessions and queued tasks in the app and use the available data controls in Settings. Contact us if you want help removing Live Activity service records. Because iCloud is an Apple service, deletion or synchronization may require a connection and can take time to propagate across devices.</p>
           </section>
 
           <section id="choices" data-reveal>
