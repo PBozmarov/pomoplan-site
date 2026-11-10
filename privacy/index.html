@@ -32,7 +32,7 @@
         <p class="eyebrow"><span class="signal-dot"></span> Privacy policy</p>
         <h1>Your focus data<br><em>belongs to you.</em></h1>
         <p>This policy explains what PomoPlan stores, why it is needed, and which Apple and hosting services may process it.</p>
-        <div class="inner-hero-meta"><span>Effective October 31, 2026</span><span>No ads</span><span>No third-party analytics</span></div>
+        <div class="inner-hero-meta"><span>Effective November 10, 2026</span><span>No ads</span><span>No tracking</span></div>
       </div>
     </section>
 
@@ -54,14 +54,14 @@
         <article class="legal-content">
           <div class="legal-summary" data-reveal>
             <strong>The short version</strong>
-            <p>PomoPlan has no advertising SDKs, does not use third-party analytics, and does not require a PomoPlan account. Session history and scores stay on your devices and, if enabled, in your private iCloud database. To update a Live Activity while the app is closed, a limited current/next timer schedule is sent to PomoPlan’s push service.</p>
+            <p>PomoPlan has no advertising SDKs, never tracks you across other apps or websites, and does not require a PomoPlan account. The app sends anonymous usage events (for example, which onboarding step was reached or that a session was completed) to TelemetryDeck so we can improve PomoPlan; these never include your topics, tasks or other text you type. Session history and scores stay on your devices and, if enabled, in your private iCloud database. To update a Live Activity while the app is closed, a limited current/next timer schedule is sent to PomoPlan’s push service.</p>
           </div>
 
           <section id="overview" data-reveal>
             <h2>1. Overview</h2>
             <p>This Privacy Policy applies to the PomoPlan applications for iPhone and Apple Watch, PomoPlan widgets and complications, and the website at <a href="https://pomoplan.io/">pomoplan.io</a> (together, the “Services”).</p>
             <p>“PomoPlan,” “we,” “us,” and “our” refer to the independent publisher of PomoPlan. If you have a privacy question, contact <a href="mailto:support@pomoplan.io">support@pomoplan.io</a>.</p>
-            <p>PomoPlan is designed to work without creating a PomoPlan account. We do not sell personal data, use it for targeted advertising, or operate an advertising or behavioral-analytics backend.</p>
+            <p>PomoPlan is designed to work without creating a PomoPlan account. We do not sell personal data, use it for targeted advertising, or operate an advertising backend. Anonymous app analytics are described in section 2.</p>
           </section>
 
           <section id="data" data-reveal>
@@ -73,6 +73,7 @@
                 <tr><th>Timer activity</th><td>Focus and break durations, session timestamps and status, pauses, completion state, and the device needed to keep an active timer synchronized.</td></tr>
                 <tr><th>Focus insights</th><td>Session history, focused time, distracted time, pause counts, focus scores, streaks, and summaries derived from your sessions.</td></tr>
                 <tr><th>Preferences</th><td>Timer defaults, appearance, grace-period and penalty settings, onboarding state, notification preferences, and other app settings.</td></tr>
+                <tr><th>Anonymous usage analytics</th><td>Which app steps were reached (onboarding pages, permission answers, paywall views, trial starts, sessions started and completed), plus app version, device model, iOS version, language, region, time zone and some accessibility settings. Each install is represented by a random identifier that is hashed on your device before it is sent. Analytics never include your topics, task or note text, focus history, name, email address, location or advertising identifier, and they are not used to track you across other companies’ apps or websites.</td></tr>
                 <tr><th>Focus Guard choices</th><td>The app and category selections you choose through Apple’s Screen Time interface, represented by Apple-provided authorization and selection data.</td></tr>
                 <tr><th>Support messages</th><td>The email address, message, attachments, and technical details you choose to send when contacting support.</td></tr>
               </tbody>
@@ -90,6 +91,8 @@
             <p>If iCloud sync is enabled and available, supported PomoPlan data is synchronized using Apple’s iCloud and CloudKit services. PomoPlan uses the user’s private CloudKit database. Apple states that, by default, only the user can access this database, the user owns its contents, and its data is not visible in the developer portal. iCloud storage and processing are governed by your Apple Account settings and Apple’s terms.</p>
             <h3>Live Activity delivery</h3>
             <p>For a running iPhone Live Activity, the app sends a limited schedule over HTTPS to PomoPlan’s push service, hosted by Contabo in Europe. It includes an installation identifier, an Apple Live Activity update token, the current and next topic/task text shown on the activity, and phase timing and status. A separate Apple App Attest registration secures later requests. The service stores the schedule and sends phase updates through Apple Push Notification service. It does not receive Screen Time selections or usage, focus scores, or completed session history. Without this service or internet access, the app’s local timer continues, but background Live Activity phase changes may be delayed.</p>
+            <h3>Analytics</h3>
+            <p>Anonymous usage events are sent over HTTPS to TelemetryDeck, a privacy-focused analytics service operated by TelemetryDeck GmbH in Germany, which processes them on PomoPlan’s behalf. We use the aggregated results to understand where people get stuck and to improve the app.</p>
             <p>Learn more in <a href="https://www.apple.com/legal/privacy/" rel="external">Apple’s Privacy Policy</a> and Apple’s documentation for the <a href="https://developer.apple.com/documentation/cloudkit/ckcontainer/privateclouddatabase" rel="external">private CloudKit database</a>.</p>
           </section>
 
